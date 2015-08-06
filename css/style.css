@@ -93,7 +93,7 @@ a {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: rgba(10, 0, 255, 0.5);
 }
 
 .hero-descrip {
@@ -168,9 +168,13 @@ a {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	font-size: 1.6em;
+
 	text-align: center;
 	color: #eee;
+}
+
+.proj-name {
+	font-size: 1.6em;
 }
 
 /* footer */
