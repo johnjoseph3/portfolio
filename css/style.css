@@ -141,9 +141,36 @@ a {
 
 .projects-item {
 	border: 1px solid black;
-	float: left;
+	display: inline-block;
+	position: relative;
 	height: 16em;
-	width: 33.333%;
+	width: 33%;
+}
+
+.port-img {
+	height: 16em;
+	width: 100%;
+}
+
+.item-overlay {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(128,128,128,0.9);
+}
+
+.proj-link {
+	position: absolute;	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 1.6em;
+	text-align: center;
+	color: #eee;
 }
 
 /* footer */

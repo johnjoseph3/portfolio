@@ -22,17 +22,17 @@ $(document).ready(function(){
     }
   });
 
+  // Hover effects for projects
+
+  $('.projects-item').hover(function() {
+    var hoverDiv = $(this).find('.item-overlay');
+    hoverDiv.fadeIn('fast');
+  });
+
+  $('.projects-item').mouseleave(function() {
+    var hoverDiv = $(this).find('.item-overlay');
+    hoverDiv.fadeOut('fast');
+  });
+
   
-
-
-
-
-
-
-
-
-
-
-
-
 });
