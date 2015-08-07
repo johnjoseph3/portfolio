@@ -140,7 +140,6 @@ a {
 }
 
 .projects-item {
-	border: 1px solid black;
 	display: inline-block;
 	position: relative;
 	height: 16em;
