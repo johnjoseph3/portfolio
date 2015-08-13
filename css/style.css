@@ -279,10 +279,17 @@ a {
  
 } 
 
-@media (max-width: 420px) {
+/*@media (max-width: 420px) {
 	.hero-descrip {
 		font-size: 0.8em;
 	}
 
-}
+}*/
+
+/*@media (max-width: ) {
+	.hero-descrip {
+		font-size: 0.8em;
+	}
+
+}*/
 

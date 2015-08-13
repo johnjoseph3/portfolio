@@ -34,5 +34,29 @@ $(document).ready(function(){
     hoverDiv.fadeOut('fast');
   });
 
-  
+
+  if ($(window).width() < 450) {
+    $('.hero-container').html('<header class="hero-descrip">John Joseph <br> Web Developer</header><div class="overlay"></div><img class="hero-img" src="images/clouds.jpg">');          
+    $('.hero-descrip').css('line-height', '1.5em');
+  }
+
+  if ($(window).width() > 450) {
+    $('.hero-container').html('<header class="hero-descrip">John Joseph | Web Developer</header><div class="overlay"></div><img class="hero-img" src="images/clouds.jpg">');          
+    $('.hero-descrip').css('line-height', '1em');
+  }
+
+  $(window).resize(function() {
+
+    if ($(window).width() < 450) {
+      $('.hero-container').html('<header class="hero-descrip">John Joseph <br> Web Developer</header><div class="overlay"></div><img class="hero-img" src="images/clouds.jpg">');          
+      $('.hero-descrip').css('line-height', '1.5em');
+    }
+
+    if ($(window).width() > 450) {
+      $('.hero-container').html('<header class="hero-descrip">John Joseph | Web Developer</header><div class="overlay"></div><img class="hero-img" src="images/clouds.jpg">');          
+      $('.hero-descrip').css('line-height', '1em');
+    }
+
+  }); 
+
 });
