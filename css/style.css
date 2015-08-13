@@ -118,9 +118,11 @@ a {
 }
 
 .skills-item {
-	float: left;
-	width: 30%;
-	margin: 0 1em;
+	display: inline-block;
+	position: relative;
+  height: 16em;
+  width: 33%;
+  overflow: auto;
 }
 
 .skills-title {
@@ -130,6 +132,7 @@ a {
 
 .skills-body {
 	line-height: 1.5em;
+	width: 90%;
 }
 
 /* projects */
@@ -214,6 +217,72 @@ a {
 	padding: 0.2em;
 }
 
+@media (max-width: 945px) {
+	.skills-item {
+		display: block;
+	  height: 16em;
+	  width: 60%; 
+	  overflow: auto;
+	  margin: 0 auto;
+	}
 
+	.projects-item {
+		display: block;
+		height: 16em;
+		width: 60%;
+		margin: 1em auto;
+	}
+}
 
+@media (max-width: 900px) {
+
+	.hero-descrip {
+		font-size: 1.5em;
+	}
+
+	.section-header {
+		font-size: 1.5em;
+	}
+
+	.skills-title {
+		font-size: 1em;
+	}
+
+	.hero-container {
+		height: 32em;
+	}
+ 
+} 
+
+@media (max-width: 685px) {
+
+	.skills-item {
+		width: 100%;
+	}
+
+	.projects-item { 
+		width: 100%;
+	}
+
+	.nav-bar {
+		text-align: center;
+		margin-right: 0;
+	}
+
+	.hero-descrip {
+		font-size: 1em;
+	}
+
+	.section-header {
+		font-size: 1em;
+	}
+ 
+} 
+
+@media (max-width: 420px) {
+	.hero-descrip {
+		font-size: 0.8em;
+	}
+
+}
 
